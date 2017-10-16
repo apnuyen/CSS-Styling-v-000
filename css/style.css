@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+/* CSS Syntax:
+
+selector {
+  property: value;
+  property: value;
+}
+
+*/
+
+/* Type Selector */
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: purple;
+}
+
+/* Class Selectors */
+
+.milk-text {
+  font: bold 2.6em 'Gloria Hallelujah', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background: aqua;
+}
+
+/* descendant selector */
+#logo h1 {
+}
